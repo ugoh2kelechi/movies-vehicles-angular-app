@@ -1,5 +1,7 @@
 
-export class AppSettings {
-    public static API_MOVIES_ENDPOINT:  ' https://www.userdomain.com/';
-    public static API_VEHICLES_ENDPOINT: 'https://www.userdomainmock.com/';
+export const appSettings = {
+    API_MOVIES_ENDPOINT: 'films',
+    API_VEHICLES_ENDPOINT: 'vehicles',
+    API_PEOPLE_ENDPOINT: 'people',
+    API_SPECIES_ENDPOINT: 'species'
 }
